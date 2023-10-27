@@ -218,6 +218,20 @@ img.circle-1 {
 	transform: scale(1.2);
 }
 
+footer.container {
+	padding: 80px 0;
+	background-color: var(--dark--grey);
+	gap: 90px;
+}
+footer.container .row:first-child {
+	justify-content: space-between;
+}
+footer.container .row:first-child .column {
+	max-width: 445px;
+}
+footer.container .row:last-child {
+	border-top: 1px solid var(--white);
+}
 /* ANIMATIONS */
 
 .slide-left {
