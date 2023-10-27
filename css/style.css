@@ -134,11 +134,13 @@ img.circle-1 {
 
 .container.skills {
 	margin-bottom: 40px;
+	position: relative;
 }
 
 .container.skills .row {
 	padding: 60px 20px;
 	border-top: 1px solid var(--white);
+	position: relative;
 }
 
 .skill-cards {
@@ -161,6 +163,11 @@ img.circle-1 {
 .skill-circle.full {
 	border-color: var(--green);
 	background-color: var(--green);
+}
+.bg-rings-2 {
+	position: absolute;
+	right: -100px;
+	top: 50%;
 }
 
 /* ANIMATIONS */
