@@ -132,6 +132,37 @@ img.circle-1 {
 	bottom: 70px;
 }
 
+.container.skills {
+	margin-bottom: 40px;
+}
+
+.container.skills .row {
+	padding: 60px 20px;
+	border-top: 1px solid var(--white);
+}
+
+.skill-cards {
+	row-gap: 60px;
+}
+
+.skill-card {
+	width: 33.332%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.skill-circle {
+	width: 20px;
+	aspect-ratio: 1/1;
+	border: 2px solid var(--grey);
+	border-radius: 999px;
+}
+.skill-circle.full {
+	border-color: var(--green);
+	background-color: var(--green);
+}
+
 /* ANIMATIONS */
 
 .slide-left {
