@@ -250,15 +250,33 @@
                         as possible.</p>
                 </div>
                 <div class="column">
-
+                    <form id="contact" method="POST" action="" class="d-flex flex-column gap-30">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <textarea name="message" id="message" placeholder="Message" required></textarea>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn">Send Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="row">
+            <div class="row py-30">
                 <div class="column">
-
+                    <a href="/" class="logo">jasonmerrell</a>
                 </div>
-                <div class="column">
-
+                <div class="column flex-shrink-1">
+                    <ul class="d-flex align-items-center gap-30">
+                        <li>
+                            <a href="https://github.com/merrellj-codeup" target="_blank">
+                                <img src="./assets/images/icon-github.svg" class="menu-icon" alt="GitHub Icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jasonmerrell/" target="_blank">
+                                <img src="./assets/images/icon-linkedin.svg" class="menu-icon" alt="LinkedIn Icon">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
