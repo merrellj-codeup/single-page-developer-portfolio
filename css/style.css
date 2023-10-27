@@ -31,13 +31,16 @@ body {
 h1 {
 	letter-spacing: -2.5px;
 	line-height: 1;
+	font-size: var(--heading--x-l);
 }
 h2 {
 	letter-spacing: -1.5px;
 	line-height: 1.16;
+	font-size: var(--heading--l);
 }
 h3 {
 	line-height: 1.33;
+	font-size: var(--heading--m);
 }
 
 .logo {
@@ -48,6 +51,10 @@ h3 {
 }
 header.container {
 	padding: 40px 0;
+	position: relative;
+}
+header.container .row {
+	position: relative;
 }
 
 .menu-icon {
@@ -58,6 +65,57 @@ header.container {
 	opacity: 1;
 	transform: scale(1.1);
 }
+
+.container.hero {
+	min-height: calc(100dvh - 130px);
+	justify-content: center;
+	position: relative;
+}
+
+.container.hero .row {
+	position: relative;
+	top: -55px;
+}
+
+.container.hero .column {
+	position: relative;
+	gap: 50px;
+}
+
+.container.hero p {
+	color: var(--grey);
+	max-width: 445px;
+}
+
+.container.hero h1 span {
+	border-bottom: 6px solid var(--green);
+}
+
+.btn {
+	border: unset;
+	background-color: unset;
+	outline: none;
+	color: var(--white);
+	border-bottom: 2px solid var(--green);
+	letter-spacing: 2.29px;
+	line-height: 1;
+	padding: 10px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all ease 0.3s;
+}
+.btn:hover {
+	color: var(--green);
+}
+
+img.hero-profile {
+	position: absolute;
+	right: 0;
+	height: calc(100dvh - 100px);
+	top: -40px;
+}
+
+/* ANIMATIONS */
 
 .slide-left {
 	animation: slide-in-left 0.5s;
