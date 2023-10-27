@@ -113,6 +113,7 @@ img.hero-profile {
 	right: 0;
 	height: calc(100dvh - 100px);
 	top: -40px;
+	filter: grayscale(100%);
 }
 
 /* ANIMATIONS */
